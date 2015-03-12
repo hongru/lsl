@@ -1,0 +1,36 @@
+{
+  "name": "lsl",
+  "version": "1.0.0",
+  "description": "list all dirs and files with a awesome show",
+  "main": "index.js",
+  "bin": {
+    "lsl": "bin/lsl.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:one-request/lsa.git"
+  },
+  "keywords": [
+    "ls",
+    "lsa"
+  ],
+  "dependencies": {
+    "commander": "^2.7.1",
+    "chalk": "^1.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.6",
+    "coveralls": "^2.10.0",
+    "mocha": "^2.1.0"
+  },
+  "readmeFilename": "README.md",
+  "author": "cenan.chr",
+  "license": "MIT"
+}
