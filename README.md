@@ -2,6 +2,20 @@
 
 list all folders and files with an awesome show!
 
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Downloads][downloads-image]][downloads-url]
+
+[npm-image]: https://img.shields.io/npm/v/lsl.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/lsl
+[travis-image]: https://img.shields.io/travis/hongru/lsl.svg?style=flat-square
+[travis-url]: https://travis-ci.org/hongru/lsl
+[coveralls-image]: https://img.shields.io/coveralls/hongru/lsl.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/hongru/lsl
+[downloads-image]: http://img.shields.io/npm/dm/lsl.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/lsl
+
 ## Usage
 
 #### Cli
@@ -18,6 +32,7 @@ $ npm install -g lsl
     -h, --help                    output usage information
     -V, --version                 output the version number
     -c, --collapse <dir1/,dir2/>  the dirs you want to collapse
+    -n, --nochalk                 no chalk decoration on dirs
 ```
 
 ```
